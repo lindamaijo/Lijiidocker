@@ -5,8 +5,7 @@ pipeline {
         stage ('Print') {
             steps {
                 echo "Hello Devops Engineers"
-                sh 'docker build -t lijitijil/docker:html .'
-            }
+                            }
         }
     }
 }
